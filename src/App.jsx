@@ -1,9 +1,10 @@
 import React from 'react'
-
-function App() {
+import TituloCompleto from './componets/tituloCompleto'
+function App(props) {
   return (
     <>
-      
+      <h1>Hello {props.amigo}</h1>
+      <TituloCompleto></TituloCompleto>
     </>
   )
 }
