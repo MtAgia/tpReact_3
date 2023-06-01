@@ -1,5 +1,6 @@
 import React from 'react'
-import TituloCompleto from './componets/tituloCompleto'
+import TituloCompleto from './componets/TituloCompleto'
+
 function App(props) {
   return (
     <>
